@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Simple Views 1</string>
+    <string name="hello">Hello World, SimpleViews1Activity!</string>
+    <string name="save">Save</string>
+</resources>
