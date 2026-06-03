@@ -5,36 +5,63 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <EditText
+        android:id="@+id/myEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/edit_text_hint"
+        android:inputType="textCapWords|textNoSuggestions"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+        android:maxLength="10"
+        android:layout_marginBottom="12dp" />
+
     <Button
         android:id="@+id/btnOpen"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Open" />
+        android:text="@string/open_button_text"
+        android:layout_marginBottom="12dp" />
 
     <Button
         android:id="@+id/btnSave"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Save"
-        android:onClick="btnSaved_clicked" />
+        android:text="@string/save_button_text"
+        android:layout_marginBottom="12dp" />
+
+    <ImageButton
+        android:id="@+id/myImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/img_1"
+        android:contentDescription="Rotational Display"
+        android:layout_marginBottom="12dp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/uiSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/switch_text"
+        android:layout_marginBottom="16dp" />
 
     <CheckBox
         android:id="@+id/chkAutosave"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Autosave" />
+        android:text="Autosave"
+        android:layout_marginBottom="12dp" />
 
     <RadioGroup
         android:id="@+id/rdbGp1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
         <RadioButton
             android:id="@+id/rdb1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Option 1" />
-
         <RadioButton
             android:id="@+id/rdb2"
             android:layout_width="wrap_content"
@@ -45,6 +72,7 @@
     <ToggleButton
         android:id="@+id/toggle1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp" />
 
 </LinearLayout>
