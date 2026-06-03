@@ -35,15 +35,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-		/*
-		//---Button view---
-		Button btnSave = (Button) findViewById(R.id.btnSave);
-		btnSave.setOnClickListener(new View.OnClickListener()
-		{
-			public void onClick(View v) {
-				DisplayToast("You have clicked the Save button");
-			}
-		});
+       /*
+       //---Button view---
+       Button btnSave = (Button) findViewById(R.id.btnSave);
+       btnSave.setOnClickListener(new View.OnClickListener()
+       {
+          public void onClick(View v) {
+             DisplayToast("You have clicked the Save button");
+          }
+       });
         */
 
         //---CheckBox---
