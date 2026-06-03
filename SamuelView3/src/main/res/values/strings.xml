@@ -1,5 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
 <resources>
-    <string name="app_name">Simple Views 1</string>
-    <string name="hello">Hello World, SimpleViews1Activity!</string>
-    <string name="save">Save</string>
+
+    <string name="app_name">SamuelLab3</string>
+    <string name="open_button_text">Open Settings</string>
+    <string name="save_button_text">Save</string>
+    <string name="switch_text">Feature Toggle</string>
+
+
+    <string name="dialog_title">SamuelLab3</string>
+    <string name="dialog_message">Do you want to exit the app ?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+
+
+    <string name="toast_image_clicked">Samuel Pecora - </string>
+    <string name="switch_on_msg">Switch is ON</string>
+    <string name="switch_off_msg">Switch is OFF</string>
+
+
+    <string name="edit_text_hint">Enter some text.</string>
 </resources>
