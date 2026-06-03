@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SamuelLab3</string>
+    <string name="dialog_message">Voulez-vous quitter l\'application ?</string>
+    <string name="dialog_no">Non</string>
+    <string name="dialog_title">SamuelLab3</string>
+    <string name="dialog_yes">Oui</string>
+    <string name="edit_text_hint">Saisissez du texte.</string>
+    <string name="open_button_text">Ouvrir les Paramètres</string>
+    <string name="save_button_text">Enregistrer</string>
+    <string name="switch_off_msg">L\'interrupteur est DÉSACTIVÉ</string>
+    <string name="switch_on_msg">L\'interrupteur est ACTIVÉ</string>
+    <string name="switch_text">Basculer la Fonctionnalité</string>
+    <string name="toast_image_clicked">Samuel Pecora - </string>
+</resources>

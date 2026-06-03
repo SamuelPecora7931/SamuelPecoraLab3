@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <string name="app_name">SamuelLab3</string>
+    <string name="dialog_message">Do you want to exit the app ?</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_title">SamuelLab3</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="edit_text_hint">Enter some text.</string>
+    <string name="open_button_text">Open Settings</string>
+    <string name="save_button_text">Save</string>
+    <string name="switch_off_msg">Switch is OFF</string>
+    <string name="switch_on_msg">Switch is ON</string>
+    <string name="switch_text">Feature Toggle</string>
+    <string name="toast_image_clicked">Samuel Pecora - </string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
